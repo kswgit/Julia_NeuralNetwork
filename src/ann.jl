@@ -35,10 +35,10 @@ end
 ann = NewNeuralNetwork(784, 100, 10, 0.3)
 onodes = 10
 
-data_file = open("mnist_dataset/mnist_train_100.csv", "r")
+data_file = open("../mnist_dataset/mnist_train_100.csv", "r")
 data_list = readlines(data_file)
 close(data_file)
-test_data_file = open("mnist_dataset/mnist_test_10.csv", "r")
+test_data_file = open("../mnist_dataset/mnist_test_10.csv", "r")
 test_data_list = readlines(test_data_file)
 close(test_data_file)
 
